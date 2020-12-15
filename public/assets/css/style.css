@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav img{
+    padding-top: 1%;
+    padding-left: 4%;
+}
+
+#HeaderIndex{
+    margin-top: 2%;
+    display: flex;
+    height: 75vh;
+    width: 100%;
+   background-color: white;
+   background-image: linear-gradient(white,#98C3E8
+   );
+}
+
+#HeaderIndex div{
+    width: 50%;
+}
+
+#HeaderIndex ul{
+   padding-top: 10%;
+    padding-left: 35%;
+    list-style-type: none;
+}
+
+.new ,.new1{
+    font-size: 65px;
+    letter-spacing: 4%;
+    color: #1F3F68;
+}
+.new1{
+    position: absolute;
+}
+
+.lorem1{
+    padding-top: 25%;
+    padding-bottom: 15%;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.07rem;
+    color:  #1F3F68;
+    opacity: 0.6;
+}
+
+.See{
+    color: white;
+    background-color: #5A98D0;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px 
+    rgba(53, 110, 173, 0.2);
+    width: 45%;
+    padding: 4%;
+   
+}
+
+.WhatWe{
+    padding-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 200vh;
+}
+
+.WhatWe div:not(:nth-of-type(1)){
+    height: 525px;
+    width: 380px;
+    box-shadow: 5px 20px 50px
+     rgba(16, 112, 177, 0.2);
+}
+
+.WhatWe div:first-child{
+    padding-left: 35%;
+    width: 90%;
+}
+
+.WhatWe div:nth-last-of-type(2){
+    margin-left: 35%;
+    margin-top: -70%;
+}
+
+.WhatWe div:nth-of-type(4){
+  
+    margin-top: -30%;
+}
+
+.WhatWe div > ul{
+    list-style-type: none;
+    padding-left: 10%;
+    padding-top: 5%;
+    /* text-align: center; */
+}
+
+.WhatWe > div > p{
+    font-size: 36px;
+    line-height: 46px;
+    color: #316099;
+    letter-spacing:  0.06em;
+}
+.gridh1 , .gridh2{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
+
+.lorem2{
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.07rem;
+    color:  #1F3F68;
+    opacity: 0.6;
+
+}
+
+
