@@ -458,13 +458,9 @@ footer{
     letter-spacing: 0.04em;
 }
 
-/* #Blogsection{
-    text-align: center;
-} */
-
-
 #BlogMain{
     width: 70%;
+    border-bottom: 1px solid black;
 }
 #search{
     height: 6vh;
@@ -544,6 +540,83 @@ footer{
 #share{
     margin-left: -1%;
 }
+
+#BlogArticle{
+    display:flex;
+    padding-left: 16.8%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+#BlogArticle div{
+    padding-left: 3%;
+}
+
+#BlogArticle h2{
+    padding-bottom: 5%;
+    padding-top: 4%;
+    font-size: 22px;
+    line-height: 38px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+#BlogMain h3{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #356EAD;
+    opacity: 0.8;
+}
+
+#AllARTICLE{
+    width: 80%;
+    margin-left: 14%;
+}
+#AllARTICLE div{
+    display: flex;
+    padding-top: 5%;
+    width: 80%;
+}
+
+
+#AllARTICLE ul{
+    list-style-type: none;
+    padding-left: 2%;
+}
+
+.TLL{
+    list-style-type: none;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.lorem9{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 2%;
+}
+.Leuthex{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.May1{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+
 
 
 /* //////////// CONTACT ///////////// */
